@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
 }
 
-.header, .home-info, .location, .quote, .footer, .signup {
+.header, .home-info, .location, .footer, .signup {
     display: flex;
     padding: 32px 120px;
 }
@@ -104,6 +104,8 @@ button {
 }
 
 .quote {
+    display: flex;
+    padding: 32px 240px;;
     flex-direction: column;
     background-color: #e5e7eb;
 }
@@ -111,12 +113,14 @@ button {
 .main-quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: 100;
     color: #1f2937;
 }
 
 .quote-source {
     text-align: right;
     font-weight: 400;
+    font-weight: bold;
 }
 .signup {
     justify-content: center;
